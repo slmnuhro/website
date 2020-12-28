@@ -1,5 +1,5 @@
 ﻿@charset 'UTF-8';
-@import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 @import url('font-awesome.min.css');
 
 /*
@@ -12,12 +12,12 @@
 /* Basic                                                                         */
 /*********************************************************************************/
 
-	body, input, textarea, select
-	{
-		font-family: 'Source Sans Pro', sans-serif;
-		font-weight: 400;
-		color: #919499;
-	}
+body, input, textarea, select 
+{
+	font-family: 'Pangolin', cursive;
+	font-weight: 400;
+	color: #919499;
+}
 
 		body.is-loading *
 		{
@@ -325,7 +325,8 @@
 			.image.featured
 			{
 				display: block;
-				width: 100%;
+				width: 35%;
+				height: 35%;
 				margin: 0 0 2em 0;
 			}
 
@@ -366,17 +367,15 @@
 				input[type="button"].style1:hover,
 				input[type="submit"].style1:hover,
 				input[type="reset"].style1:hover,
-				.button.style1:hover
-				{
-					background-color: #f98780;
+				.button.style1:hover {
+					background-color: #005096;
 				}
-				
+
 				input[type="button"].style1:active,
 				input[type="submit"].style1:active,
 				input[type="reset"].style1:active,
-				.button.style1:active
-				{
-					background-color: #d96760;
+				.button.style1:active {
+					background-color: #001167;
 				}
 
 			input[type="button"].style2,
@@ -525,7 +524,7 @@
 
 		.icon:before {
 			display: inline-block;
-			font-family: FontAwesome;
+			font-family: 'Pangolin', cursive;
 			font-size: 1.25em;
 			text-decoration: none;
 			font-style: normal;
@@ -779,11 +778,13 @@
 	{
 	}
 	
+
 		#logo h1
 		{
 			font-weight: 900;
 			text-transform: uppercase;
 			color: #fff;
+
 		}
 		
 		#logo p
@@ -807,10 +808,11 @@
 		
 		#intro > .style2
 		{
-			font-weight: 700;
+			font-weight: 100;
 			color: #fff;
 			border-radius: 0.35em;
 			box-shadow: inset 0px 0px 1px 1px rgba(255,255,255,0.25);
+
 		}
 		
 			#intro > .style2 a
