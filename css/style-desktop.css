@@ -30,7 +30,7 @@
 		section,
 		article
 		{
-			margin: 0 0 4em 0;
+			margin: 0 0 3em 0;
 		}
 
 		article.box post
@@ -45,7 +45,7 @@
 
 			header.style1 h2
 			{
-				font-size: 2em;
+				font-size: 1.5em;
 				letter-spacing: 0.075em;
 				line-height: 1.5em;
 			}
@@ -262,13 +262,13 @@
 
 		.wrapper .title
 		{
-			font-size: 0.9em;
-			width: 25em;
-			height: 3.25em;
-			top: -3.25em;
-			line-height: 3.25em;
-			margin-bottom: -3.25em;
-			margin-left: -12.5em;
+			font-size: 1.25em;
+			width: 20em;
+			height: 3em;
+			top: -3em;
+			line-height: 3em;
+			margin-bottom: -3em;
+			margin-left: -10em;
 			padding-top: 0.5em;
 		}
 
@@ -305,12 +305,18 @@
 	{
 		position: absolute;
 		height: 5em;
-		top: 50%;
+		top: 35%;
 		left: 0;
 		width: 100%;
 		text-align: center;
 		margin-top: -0.5em;
 	}
+
+		.favpage #logo
+		{
+			top: 45%;
+			margin-top: -1em;
+		}
 
 		.homepage #logo
 		{		
@@ -374,10 +380,10 @@
 				color: rgba(255,255,255,0.75);
 				text-transform: uppercase;
 				text-decoration: none;
-				font-size: 0.7em;
+				font-size: 1em;
 				letter-spacing: 0.25em;
-				height: 5em;
-				line-height: 5em;
+				height: 3em;
+				line-height: 3em;
 				-moz-transition: all .25s ease-in-out;
 				-webkit-transition: all .25s ease-in-out;
 				-o-transition: all .25s ease-in-out;
@@ -453,6 +459,10 @@
 	{
 		text-align: center;
 	}
+		#intro p
+		{
+
+		}
 
 		#intro > .style1
 		{
@@ -545,7 +555,7 @@
 
 		#footer hr
 		{
-			margin: 6em 0 6em 0;
+			margin: 2em 0 2em 0;
 		}
 
 /*********************************************************************************/
@@ -554,12 +564,14 @@
 
 	#copyright
 	{
-		margin: 6em 0 0 0;
+		margin: 2em 0 0 0;
+
 	}
 	
 		#copyright ul
 		{
-			padding: 0.75em 2em;
+			padding: 2em 2em 1.5em 2em;
+			top: auto;
 			font-size: 0.9em;
 		}
 		
